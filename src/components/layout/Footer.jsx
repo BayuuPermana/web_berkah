@@ -12,7 +12,7 @@ const Footer = () => {
                             <span className="font-bold text-xl tracking-tight">Berkah Furnitur</span>
                         </div>
                         <p className="text-sm leading-relaxed max-w-xs">
-                            Spesialis custom furnitur dan kitchen set harga pengrajin. Melayani area Jabodetabek dengan sistem PO yang amanah.
+                            Spesialis custom furnitur dan kitchen set harga pengrajin. Melayani area Jawa Timur dengan sistem PO yang amanah.
                         </p>
                     </div>
 

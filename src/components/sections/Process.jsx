@@ -5,7 +5,7 @@ import Card from '../ui/Card';
 const Process = () => {
     const shippingRates = [
         { area: "Bojonegoro, Tuban", price: "Rp 150.000" },
-        { area: "Surabaya", price: "Rp 150.000" },
+        { area: "Surabaya", price: "Rp 200.000" },
         { area: "Malang, Batu, Blitar, Tulungagung", price: "Rp 250.000" },
         { area: "Banyuwangi", price: "Rp 350.000" },
     ];
