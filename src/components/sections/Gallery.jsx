@@ -2,9 +2,23 @@ import React from 'react';
 import { ArrowRight } from 'lucide-react';
 import Button from '../ui/Button';
 
+/**
+ * Gallery component displaying a collection of project images.
+ *
+ * Shows a grid of completed projects with client details and a call-to-action
+ * to view more portfolio items via WhatsApp.
+ *
+ * @component
+ * @returns {JSX.Element} The rendered Gallery component.
+ */
 const Gallery = () => {
     const whatsappNumber = "6281234567890";
 
+    /**
+     * Opens a WhatsApp chat with a pre-filled message.
+     *
+     * @param {string} message - The message to pre-fill in the WhatsApp chat.
+     */
     const handleWhatsAppClick = (message) => {
         const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
         window.open(url, '_blank');
